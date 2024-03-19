@@ -1,0 +1,395 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #dae7fb;
+}
+#topscreenbar{
+  background-color: #1c2735;
+}
+.heading{
+  position: relative;
+  top:20px;
+  font-size: 3em;
+  text-align: center;
+}
+
+#title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h6{
+  display: inline;
+  word-spacing: 50px;
+}
+
+
+/* Boxes */
+#navi{
+  position: relative;
+  top:50px;
+}
+#nave{
+  background-color: #1c2735;
+}
+
+#btn{
+  width: 100%;
+  background-color: #1c2735;
+}
+#btn:hover{
+  background-color: #9ec8ff;
+}
+#btn:active{
+  background-color: #75aaf0;
+}
+/* end of boxes */
+
+
+#box{
+  position: relative;
+  top: 20px;
+  background: center fixed url(Images/banner.png);
+  height: 250px;
+  max-height: 250px;
+  max-width: 1250px;
+  background-color: #1c2735;
+  text-align: center;
+}
+h4{
+  color: #dae7fb;
+  font-size: 2em;
+  font-style: italic;
+  position: relative;
+  top: 30px;
+  justify-items: center;
+}
+
+.leftContent{
+  float: left;
+  border: black solid 1px;
+  padding-top: 10px;
+  margin: 55px ;
+  align-content: left;
+  padding-left: 25px;
+  max-width: 50%;
+  background-color: #1c2735;
+  color: white;
+  height: auto;
+}
+
+.rightArticle{
+  position: absolute;
+  background-color: #1c2735;
+  padding: 40px 30px;
+  width: 30%;
+  color: #ffffff;
+  font-size: 17px;
+  margin-left: 66% !important;
+  margin-top: 15px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: auto;
+  text-align: center;
+}
+
+button{
+  word-wrap: break-word;
+}
+
+#bottom{
+  background-color: #1c2735;
+  position: relative;
+}
+
+#left-card{
+  background-color: #bfd0e8;
+  width: 35%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 2%;
+  position: absolute;
+  padding: 10px;
+  height: auto;
+}
+.left{
+  background-color: #bfd0e8;
+  width: auto;
+  float: left;
+  margin-left: 5%;
+  margin-top: 2%;
+  position: absolute;
+  padding: 10px;
+  height: auto;
+}
+
+.middle{
+  position: absolute;
+  left: 43.5%;
+  border: black 1px solid;
+}
+
+#orientateRight{
+  width: 39%;
+  margin-top: 2%;
+  margin-left: 55% !important;
+}
+.animation{
+  width: 700px;
+  height: 600px
+}
+.card-header{
+  margin-bottom: 35px;
+}
+.card-image-top{
+  height: 300px;
+}
+
+#rightBox{
+  width: 39%;
+  margin-top: 2%;
+  margin-left: 55% !important;
+}
+#opening{
+  z-index: 4;
+  text-align: center;
+  background-image: linear-gradient(#bfd0e8,#1c2735);
+  border: 1px dashed #1c2735;
+  box-shadow: 0px 3px 30px 5px #1c2735;
+  top: 55%;
+  left: 39%;
+  position: absolute;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 1px 1px black;
+  color: #40230d;
+  transition: 1s;
+  transform-origin: 0;
+  height: 68%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#letter{
+  z-index: 3;
+  text-align: center;
+  background-image: linear-gradient(#bfd0e8,#1c2735);
+  border: 1px dashed #1c2735;
+  box-shadow: 0px 3px 30px 5px #1c2735;
+  top: 55%;
+  left: 39%;
+  position: absolute;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 1px 1px black;
+  color: #40230d;
+  transition: 1s;
+  transform-origin: 0;
+  height: 68%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#video {
+  z-index: 2;
+  text-align: center;
+  background-image: linear-gradient(#bfd0e8,#1c2735);
+  border: 1px dashed #1c2735;
+  box-shadow: 0px 3px 30px 5px #1c2735;
+  top: 55%;
+  left: 39%;
+  position: absolute;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 1px 1px black;
+  color: #40230d;
+  transition: 1s;
+  transform-origin: 0;
+  height: 68%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#end{
+  z-index: 1;
+  text-align: center;
+  background-image: linear-gradient(#bfd0e8,#1c2735);
+  border: 1px dashed #1c2735;
+  box-shadow: 0px 3px 30px 5px #1c2735;
+  top: 55%;
+  left: 39%;
+  position: absolute;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 1px 1px black;
+  color: #40230d;
+  transition: 1s;
+  transform-origin: 0;
+  height: 68%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #1c2735;
+  padding: 10px;
+  overflow: hidden;
+  width:fit-content;
+  height:fit-content;
+  border-color: url(Images/banner.png);
+  position: relative;
+  left: 1%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+  border-color: #424367;
+  
+}
+
+#containerTitle{
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+  font-style: oblique;
+  text-shadow: 1px 1px #a9282a;
+}
+#container{
+  left: 10%;
+  width: 80%;
+  border: 2px black solid;
+  box-shadow: 0px 3px 10px 5px #be0e0e;
+  background-image: linear-gradient(#ee7276, #FABEC0);
+  position: relative;
+  top: 25px;
+  margin: 15px;
+  padding: 10px;
+  height: 500px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wave{
+  border: 1px solid #a9282a;
+  background-color: #F37970;
+  font-size: 1.5em;
+  height: 30px;
+  overflow:hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 1s;
+  display: block;
+  text-align: center;
+  align-items:flex-start;
+}
+#l2{
+  position:relative;
+ top: 10px; 
+}
+#l3{
+  position:relative;
+ top: 20px; 
+}
+#l4{
+  position:relative;
+ top: 30px; 
+}
+#l5{
+  position:relative;
+ top: 40px; 
+}
+#l6{
+  position:relative;
+ top: 50px; 
+}
+#l7{
+  position:relative;
+ top: 60px; 
+}
+#l8{
+  position:relative;
+ top: 70px; 
+}
+#l9{
+  position:relative;
+ top: 80px; 
+}
+#l10{
+  position:relative;
+ top: 90px; 
+}
+#l11{
+  position:relative;
+ top: 100px; 
+}
+#l12{
+  position:relative;
+ top: 110px; 
+}
+
+
+#l1:hover{
+  height:491px;
+  z-index: 1;
+}
+#l2:hover{
+  height:500px;
+  z-index: 1;
+}
+#l3:hover{
+  height:699px;
+  z-index: 1;
+}
+#l4:hover{
+  height:620px;
+  z-index: 1;
+}
+#l5:hover{
+  height:630px;
+  z-index: 1;
+}
+#l6:hover{
+  height:571px;
+  z-index: 1;
+}
+#l7:hover{
+  height:920px;
+  z-index: 1;
+}
+#l8:hover{
+  height:599px;
+  z-index: 1;
+}
+#l9:hover{
+  height:320px;
+  z-index: 1;
+}
+#l10:hover{
+  height:599px;
+  z-index: 1;
+}
+#l11:hover{
+  height:599px;
+  z-index: 1;
+}
+#l12:hover{
+  height:599px;
+  z-index: 1;
+}
+.containerTitle{
+  position:relative;
+  bottom: 30px
+}

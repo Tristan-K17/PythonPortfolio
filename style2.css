@@ -1,0 +1,321 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #dae7fb;
+}
+#topscreenbar{
+  background-color: #1c2735;
+}
+.heading{
+  position: relative;
+  top:20px;
+  font-size: 3em;
+  text-align: center;
+}
+
+#title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Boxes */
+#navi{
+  position: relative;
+  top:50px;
+}
+#nave{
+  background-color: #1c2735;
+}
+
+#btn{
+  width: 100%;
+  background-color: #1c2735;
+}
+#btn:hover{
+  background-color: #9ec8ff;
+}
+#btn:active{
+  background-color: #75aaf0;
+}
+/* end of boxes */
+
+
+#box{
+  position: relative;
+  top: 20px;
+  background: center fixed url(Images/banner.png);
+  height: 250px;
+  max-height: 250px;
+  max-width: 1250px;
+  background-color: #1c2735;
+  text-align: center;
+}
+
+
+button{
+  word-wrap: break-word;
+}
+
+#bottom{
+  background-color: #1c2735;
+  position: relative;
+}
+
+
+#containerTitle{
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+  font-style: oblique;
+  text-shadow: 1px 1px #282ca9;
+}
+
+.waveTitle{
+  text-align: center;
+  font-size: 25px;
+  font-family: fantasy;
+  font-style: oblique;
+  text-shadow: 1px 1px #1c2735;
+}
+#container{
+  left: 10%;
+  width: 80%;
+  border: 2px black solid;
+  box-shadow: 0px 3px 10px 5px #1c2735;
+  background-image: linear-gradient(#1c2735, #4f6c92);
+  position: relative;
+  top: 25px;
+  margin: 15px;
+  padding: 10px;
+  height: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wave{
+  border: 1px solid #2853a9;
+  background-color: #b0c6f2;
+  font-size: 1.5em;
+  height: 30px;
+  overflow:hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 1s;
+  display: block;
+  text-align: center;
+  align-items:flex-start;
+}
+
+/* Positioning */
+
+#l2{
+  position:relative;
+ top: 10px; 
+}
+#l3{
+  position:relative;
+ top: 20px; 
+}
+#l4{
+  position:relative;
+ top: 30px; 
+}
+#l5{
+  position:relative;
+ top: 40px; 
+}
+#l6{
+  position:relative;
+ top: 50px; 
+}
+#l7{
+  position:relative;
+ top: 60px; 
+}
+#l8{
+  position:relative;
+ top: 70px; 
+}
+#l9{
+  position:relative;
+ top: 80px; 
+}
+#l10{
+  position:relative;
+ top: 90px; 
+}
+#l11{
+  position:relative;
+ top: 100px; 
+}
+#l12{
+  position:relative;
+ top: 110px; 
+}
+
+#l13{
+  position:relative;
+ top: 120px; 
+}
+
+#l14{
+  position:relative;
+ top: 130px; 
+}
+
+#l15{
+  position:relative;
+ top: 140px; 
+}
+
+#l16{
+  position:relative;
+ top: 150px; 
+}
+
+#l17{
+  position:relative;
+ top: 160px; 
+}
+
+#l18{
+  position:relative;
+ top: 170px; 
+}
+
+#l19{
+  position:relative;
+ top: 180px; 
+}
+
+#l20{
+  position:relative;
+ top: 190px; 
+}
+
+#l21{
+  position:relative;
+ top: 200px; 
+}
+
+#l22{
+  position:relative;
+ top: 210px; 
+}
+
+#l23{
+  position:relative;
+ top: 220px;
+}
+#l24{
+  position:relative;
+ top: 230px;
+}
+/* Hovers */
+
+#l1:hover{
+  height:200px;
+  z-index: 1;
+}
+#l2:hover{
+  height:200px;
+  z-index: 1;
+}
+#l3:hover{
+  height:200px;
+  z-index: 1;
+}
+#l4:hover{
+  height:200px;
+  z-index: 1;
+}
+#l5:hover{
+  height:200px;
+  z-index: 1;
+}
+#l6:hover{
+  height:200px;
+  z-index: 1;
+}
+#l7:hover{
+  height:200px;
+  z-index: 1;
+}
+#l8:hover{
+  height:200px;
+  z-index: 1;
+}
+#l9:hover{
+  height:200px;
+  z-index: 1;
+}
+#l10:hover{
+  height:200px;
+  z-index: 1;
+}
+#l11:hover{
+  height:200px;
+  z-index: 1;
+}
+#l12:hover{
+  height:200px;
+  z-index: 1;
+}
+#l12:hover{
+  height:200px;
+  z-index: 1;
+}
+#l12:hover{
+  height:200px;
+  z-index: 1;
+}
+#l13:hover{
+  height:200px;
+  z-index: 1;
+}
+#l14:hover{
+  height:200px;
+  z-index: 1;
+}
+#l15:hover{
+  height:200px;
+  z-index: 1;
+}
+#l16:hover{
+  height:200px;
+  z-index: 1;
+}
+#l17:hover{
+  height:200px;
+  z-index: 1;
+}
+#l18:hover{
+  height:200px;
+  z-index: 1;
+}
+#l19:hover{
+  height:200px;
+  z-index: 1;
+}
+#l20:hover{
+  height:200px;
+  z-index: 1;
+}
+#l21:hover{
+  height:200px;
+  z-index: 1;
+}
+#l22:hover{
+  height:200px;
+  z-index: 1;
+}
+#l23:hover{
+  height:200px;
+  z-index: 1;
+}
+#l24:hover{
+  height:200px;
+  z-index: 1;
+}
